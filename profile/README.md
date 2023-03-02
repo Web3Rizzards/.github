@@ -6,7 +6,7 @@ Options trading for fractionalized NFTs using a peer-to-pool AMM Model.
 
 ## Motivation
 
-The motivation behind a product for options trading of fractionalized NFTs is to provide investors with a new asset class that combines the benefits of non-fungible tokens (NFTs) with the flexibility of options trading. NFTs are unique digital assets that have gained popularity in recent years due to their ability to represent ownership and provenance of digital content. However, the high cost of some NFTs may make them inaccessible to many investors.
+Our motivation for creating Bluebird Swap is to provide investors with a new asset class that combines the benefits of non-fungible tokens (NFTs) with the flexibility of options trading. NFTs are unique digital assets that have gained popularity in recent years due to their ability to represent ownership and provenance of digital content. However, the high cost of some NFTs may make them inaccessible to many investors.
 
 Fractionalization of NFTs can help address this issue by allowing investors to purchase a fraction of an NFT. This allows investors to gain exposure to high-value NFTs without having to pay the full price. Fractionalization can also increase liquidity in the NFT market, making it easier for investors to buy and sell NFTs.
 
@@ -56,7 +56,9 @@ In summary, a product for options trading of fractionalized NFTs can provide inv
 - Platform prompts the user to input the number of options contracts they want to purchase and shows the premium of buying those contracts
 - User inputs the quantity of contracts to buy
 - User places an order and signs a metamask transaction.
+
 ### Post Swap (Claiming)
+
 - If user wins, they should be able to see the tweets that they won
 - On the tweet, there should be a claim button for the user to collect their prize
 - User clicks on the claim button
@@ -64,29 +66,17 @@ In summary, a product for options trading of fractionalized NFTs can provide inv
 - User sees updated balance
 
 ### Analytics
+
 - User should be able to see the total amount bet
 - User should see P/L
 - User should be able to see the amount long / short on a particular tweet
 
-### Faucet
-- User clicks on drip
-- User receives 1000 $BB
-
-
 ### Premium Calculation
+
 What is an Option Premium?
 An option premium is the price of an option contract. It is thus the income received by the seller (writer) of an option contract. In-the-money option premiums are composed of two factors: intrinsic and extrinsic value. Out-of-the-money options premiums consist solely of extrinsic value.
 The main factors affecting an option's price are the underlying asset's price, moneyness, useful life of the option and implied volatility. As the price of the underlying asset changes, the option premium changes. As the underlying asset's price increases, the premium of a call option increases, but the premium of a put option decreases. As the underlying asset's price decreases, the premium of a put option increases, and the opposite is true for call options.
 The moneyness affects the option's premium because it indicates how far away the underlying asset price is from the specified strike price. As an option becomes further in-the-money, the option's premium normally increases. Conversely, the option premium decreases as the option becomes further out-of-the-money. For example, as an option becomes further out-of-the-money, the option premium loses intrinsic value, and the value stems primarily from the time value.
-## Limitations
-- Impact from individual tweets are not independent of each other
-
-
-Views:
-Candlestick graph
-
-
-
 ## TODOs
 
 - [x] Setup new GitHub organization
@@ -101,3 +91,31 @@ Candlestick graph
 - [ ] Get twitter API to stream tweets into frontend
 - [ ] Setup Web3Auth Account
 - [ ] Create Figma
+
+## BudilBox Submission
+
+Link To Work (Github repo, Google Drive Dropbox etc):
+
+https://github.com/Web3Rizzards/bluebirdswap
+
+Demo URL
+
+// TODO
+
+Video URL
+
+// TODO
+
+Project Name
+
+BluebirdSwap
+
+Project Short Bio
+
+Options trading for fractionalized NFTs using a peer-to-pool AMM Model.
+
+Project Long Description
+
+Project logo
+
+![bluebird](Logo.png)
