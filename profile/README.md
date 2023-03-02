@@ -4,6 +4,12 @@
 
 Options trading for fractionalized NFTs using a peer-to-pool AMM Model.
 
+🖌️ UI/UX Design: <https://www.figma.com/file/3LVfwAKZuh5fqvdXdAwuxS/BlueBirdSwap>
+
+🖥️ Monorepo: <https://github.com/Web3Rizzards/bluebirdswap>
+
+💡 Live Site: <>
+
 ## Motivation
 
 Our motivation for creating Bluebird Swap is to provide investors with a new asset class that combines the benefits of non-fungible tokens (NFTs) with the flexibility of options trading. NFTs are unique digital assets that have gained popularity in recent years due to their ability to represent ownership and provenance of digital content. However, the high cost of some NFTs may make them inaccessible to many investors.
