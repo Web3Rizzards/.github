@@ -124,4 +124,4 @@ Project Long Description
 
 Project logo
 
-![bluebird](Logo.png)
+![bluebird](https://github.com/Web3Rizzards/.github/blob/main/profile/Logo.png)
