@@ -1,14 +1,16 @@
-# BlueBirdSwap
+<p align="center">
+<img src="MainLogo.svg" width=400/>
 
-~~Crypto Trading interface based on influential twitter tweets.~~
-
+<p align="center">
 Options trading for fractionalized NFTs using a peer-to-pool AMM Model.
 
 🖌️ UI/UX Design: <https://www.figma.com/file/3LVfwAKZuh5fqvdXdAwuxS/BlueBirdSwap>
 
-🖥️ Monorepo: <https://github.com/Web3Rizzards/bluebirdswap>
+🖥️ Backend + Subgraph: <https://github.com/Web3Rizzards/bluebirdswap>
 
-💡 Live Site: <>
+🖥️ Frontend: <https://github.com/Web3Rizzards/new-frontend>
+
+💡 Live Site: <https://new-frontend-frontend.vercel.app/>
 
 ## Motivation
 
@@ -28,7 +30,7 @@ In summary, a product for options trading of fractionalized NFTs can provide inv
 
 ### Login
 
-- User logs in using Web3 using Web3Auth
+- User logs in
 - User sees interface
 - User sees balance of BLUEBIRD $BB and ETH/MATIC
 - Fade into main screen
@@ -79,10 +81,24 @@ In summary, a product for options trading of fractionalized NFTs can provide inv
 
 ### Premium Calculation
 
-What is an Option Premium?
-An option premium is the price of an option contract. It is thus the income received by the seller (writer) of an option contract. In-the-money option premiums are composed of two factors: intrinsic and extrinsic value. Out-of-the-money options premiums consist solely of extrinsic value.
-The main factors affecting an option's price are the underlying asset's price, moneyness, useful life of the option and implied volatility. As the price of the underlying asset changes, the option premium changes. As the underlying asset's price increases, the premium of a call option increases, but the premium of a put option decreases. As the underlying asset's price decreases, the premium of a put option increases, and the opposite is true for call options.
-The moneyness affects the option's premium because it indicates how far away the underlying asset price is from the specified strike price. As an option becomes further in-the-money, the option's premium normally increases. Conversely, the option premium decreases as the option becomes further out-of-the-money. For example, as an option becomes further out-of-the-money, the option premium loses intrinsic value, and the value stems primarily from the time value.
+An option premium is the price of an option contract. It is thus the income received by the seller (writer) of an option contract.
+
+Options are priced based on the Black-Scholes formula:
+
+$$C(S_t, t) = S_tN(d_1) - Ke^{-r(T-t)}N(d_2)$$
+
+where:
+
+- $C(S_t, t)$ is the price of a call option at time $t$ with strike price $K$ and expiry $T$ on an underlying asset with current price $S_t$.
+
+- $r$ is the risk-free interest rate
+- $N$ is the cumulative distribution function of the standard normal distribution
+$d_1 = \frac{\ln(S_t/K) + (r + \frac{\sigma^2}{2})(T-t)}{\sigma \sqrt{T-t}}$
+$d_2 = d_1 - \sigma \sqrt{T-t}$
+
+Here, $\sigma$ is the volatility of the underlying asset.
+
+
 ## TODOs
 
 - [x] Setup new GitHub organization
@@ -91,12 +107,9 @@ The moneyness affects the option's premium because it indicates how far away the
  - subgraph
  - blockchain
 - [x] Create new private key for hackathon.
-- [ ] Fund Account with testnet ETH/Matic
+- [x] Fund Account with testnet ETH/Matic
 - [x] Create Infura account and get API Key
-- [ ] Get List of crypto influencers to stream tweets (https://influencermarketinghub.com/crypto-twitter-influencers/)
-- [ ] Get twitter API to stream tweets into frontend
-- [ ] Setup Web3Auth Account
-- [ ] Create Figma
+- [x] Create Figma
 
 ## BudilBox Submission
 
