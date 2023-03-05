@@ -10,7 +10,7 @@ Options trading for fractionalized NFTs using a peer-to-pool AMM Model.
 
 🖥️ Frontend: <https://github.com/Web3Rizzards/new-frontend>
 
-💡 Live Site: <https://new-frontend-frontend.vercel.app/>
+💡 Live Site: <https://bluebirdswap.vercel.app>
 
 ## Motivation
 
