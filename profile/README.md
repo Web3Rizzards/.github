@@ -1,5 +1,5 @@
 <p align="center">
-<img src="MainLogo.svg" width=400/>
+<img src="https://github.com/Web3Rizzards/.github/blob/main/profile/MainLogo.svg" width=400/>
 
 <p align="center">
 Options trading for fractionalized NFTs using a peer-to-pool AMM Model.
